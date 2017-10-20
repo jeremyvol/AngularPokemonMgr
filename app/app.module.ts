@@ -8,6 +8,7 @@ import { DetailPokemonComponent } from "./detail-pokemon.component";
 
 import { ShadowCardDirective } from "./shadow-card.directive";
 import { PokemonTypeColorPipe } from "./pokemon-type-color.pipe";
+import { PageNotFoundComponent } from "./page-not-found.component";
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule],
@@ -16,7 +17,8 @@ import { PokemonTypeColorPipe } from "./pokemon-type-color.pipe";
     ShadowCardDirective,
     PokemonTypeColorPipe,
     ListPokemonComponent,
-    DetailPokemonComponent
+    DetailPokemonComponent,
+    PageNotFoundComponent
   ],
   bootstrap: [AppComponent]
 })
